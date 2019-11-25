@@ -40,7 +40,7 @@ class CashRegister
 
   def void_last_transaction
  #binding.pry
-if @items.count == 0
+if @add_item.count == 0
 @total = 0.0
 else  @total - @last_price
 end
