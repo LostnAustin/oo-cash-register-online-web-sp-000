@@ -42,7 +42,9 @@ class CashRegister
  #binding.pry
 if @items.count == 0
 @total = 0.0
-else  @total - @last_price
+
+ elsif @items.count > 0
+   @total - @last_price
 end
  end
 
