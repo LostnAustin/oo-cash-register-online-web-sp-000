@@ -44,7 +44,7 @@ if @items.count == 0
 @total = 0.0
 
  elsif @items.count > 0
-   @total - @last_price
+  @total = @total - @last_price
 end
  end
 
