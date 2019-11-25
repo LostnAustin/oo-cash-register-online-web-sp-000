@@ -39,7 +39,7 @@ class CashRegister
   end
 
   def void_last_transaction
-binding.pry
+#binding.pry
 if @items.count == 0
 @total = 0.0
 
